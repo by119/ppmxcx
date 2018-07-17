@@ -1,0 +1,2 @@
+<!--pages/active/active.wxml-->
+<web-view src="http://image.test.ppmiao.com/Public/activity/20180224_wxgo2app/index.html"></web-view>

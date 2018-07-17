@@ -1,0 +1,17 @@
+/**index.wxss**/
+.container {
+  width: 750rpx;
+  padding: 0;
+}
+  image {
+   /* position: absolute;
+   top: 0;   */
+  width: 750rpx;
+}  
+swiper {
+  width: 750rpx;
+  height: 445rpx;
+}
+.swiper-img {
+  width: 100%;
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/account/account",
+    "pages/buy/buy",
+    "pages/find/find",
+    "pages/active/active"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/ico-home.png",
+        "selectedIconPath": "images/ico-home-d.png"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "产品",
+        "iconPath": "images/ico-buy.png",
+        "selectedIconPath": "images/ico-buy-d.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "账户",
+        "iconPath": "images/ico-account.png",
+        "selectedIconPath": "images/ico-account-d.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "images/ico-find.png",
+        "selectedIconPath": "images/ico-find-d.png"
+      }
+    ]
+  }
+}

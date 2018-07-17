@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+     <!-- <image src="{{imgUrls[2]}}"></image>        -->
+    <swiper indicator-dots="true" autoplay="true" interval='5000' duration="1000" indicator-active-color="red" circular="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <navigator url="../active/active">
+          <image src="{{item}}"></image>  
+        </navigator>
+      </swiper-item>
+    </block>
+   </swiper> 
+</view>
